@@ -293,7 +293,7 @@ window.addEventListener('load', () => {
 
     menuContainer = document.querySelector('nav');
 
-    let audio = new Audio('../music/music.mp3');
+    let audio = new Audio('music/music.mp3');
     audio.play();
 
     const menuLinks = menuContainer.querySelectorAll('a');
